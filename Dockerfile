@@ -31,6 +31,7 @@ RUN npm i puppeteer
 WORKDIR /validator/
 
 ADD package.json yarn.lock /validator/
+ADD utils /validator/utils/
 
 RUN yarn
 

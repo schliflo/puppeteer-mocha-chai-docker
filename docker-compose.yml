@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  puppeteer-mocha-chai:
+    image: schliflo/puppeteer-mocha-chai-docker
+    volumes:
+      - ./tests:/validator/tests/
+      - ./utils/screenshots:/validator/screenshots/
+    tmpfs:
+      - /tmp
+    environment:
+      - YARN_CACHE_FOLDER=/tmp/yarn
