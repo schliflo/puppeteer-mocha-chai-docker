@@ -8,7 +8,7 @@
     "url": "https://github.com/schliflo/puppeteer-mocha-chai-docker"
   },
   "scripts": {
-    "test": "mocha --timeout 10000 --recursive tests",
+    "test": "mocha --timeout 60000 --recursive tests",
     "screenshots": "node utils/generate-screenshots.js"
   },
   "keywords": [
