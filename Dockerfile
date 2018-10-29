@@ -1,4 +1,4 @@
-FROM alekzonder/puppeteer
+FROM schliflo/docker-puppeteer
 
 USER root
 
